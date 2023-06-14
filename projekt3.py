@@ -1,3 +1,16 @@
+"""
+
+projekt1.py: Třetí projekt do Engeto Online Python Akademie
+
+author: Lukáš Andrysík  
+
+email: lukas@andrysik.cz
+
+discord: lukasandrysik#4601
+
+"""
+
+
 import requests
 from bs4 import BeautifulSoup
 import csv
