@@ -165,7 +165,7 @@ def csv_write():
         ] + hlasy_stran[i]
         data.append(radek)
 
-    f = open(sys.argv[2], "w", newline="")
+    f = open(sys.argv[2], "w", encoding="utf-8", newline="")
     f_writer = csv.writer(f)
     f_writer.writerow(zacatek)
     f_writer.writerows(data)
